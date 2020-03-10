@@ -1,0 +1,124 @@
+
+  {% load staticfiles %}
+  <div class="headnav">
+    
+    <header class="header">
+      
+      <div class="header__logo">
+        <a href="{% url 'head' %}"><img src="{% static 'img/logo.jpeg' %}" alt="Logo" /></a>
+      </div>
+      
+      <nav class="header__nav" role="navigation">
+        <ul class="header__nav__list">
+          <li class="header__nav__item">  
+            <a href="{% url 'head' %}" class="header__nav__item__link">Главное</a>
+          </li>
+          <li class="header__nav__item">  
+            <a href="{% url 'kurs' %}" class="header__nav__item__link">Курсы</a>
+          </li>
+          <li class="header__nav__item">  
+            <a href="{% url 'consul' %}" class="header__nav__item__link">Личные консультации</a>
+          </li>
+          <li class="header__nav__item">  
+            <a href="{% url 'otzv' %}" class="header__nav__item__link">Отзывы</a>
+          </li>
+          <li class="header__nav__item">  
+            <a href="{% url 'about' %}" class="header__nav__item__link">Обо мне</a>
+          </li>
+          <div class="header__nav__item--icons">
+            <li class="header__nav__item header__nav__item--icon">  
+              <a href="#" class="header__nav__item__link header__nav__item__link--icon">
+                <img src="{% static 'img/user.svg' %}"/>
+              </a>
+            </li>
+          </div>
+        </ul>
+        <div class="header__nav__search js-nav-search">
+          <form action="#" class="header__nav__search__form">
+            <input type="search" placeholder="Search" class="header__nav__search__form__text" autofocus/>
+            <input type="submit" class="header__nav__search__form__submit" value="Rechercher"/>
+          </form>
+          <button class="header__nav__search__close js-nav-search-close"></button>
+        </div>
+      </nav>
+      
+      <button href="#" class="nav-toggle js-nav-toggle" title="navigation menu" aria-label="navigation menu" role="button" aria-controls="navigation" aria-expanded="false">
+        <div class="nav-toggle__content">
+          <div class="nav-toggle__close"></div>
+          <div class="nav-toggle__open">menu</div>
+        </div>
+      </button>
+      
+    </header>
+    
+    <nav class="nav js-nav" role="first navigation">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#" class="nav__item__wrapper">
+            <span class="nav__item__icon">
+              <img src="https://psmedia.playstation.com/is/image/psmedia/meganav-icon-mobile-ps4-01-eu-15dec15?$Icon$"/>
+            </span>
+            PS4
+          </a>  
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__item__wrapper">
+            <span class="nav__item__icon">
+              <img src="https://psmedia.playstation.com/is/image/psmedia/meganav-icon-mobile-games-01-eu-15dec15?$Icon$"/>
+            </span>
+            Jeux
+          </a>  
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__item__wrapper">
+            <span class="nav__item__icon">
+              <img src="https://psmedia.playstation.com/is/image/psmedia/meganav-icon-mobile-psplus-01-eu-15dec15?$Icon$"/>
+            </span>
+            Playstation Plus
+          </a>  
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__item__wrapper">
+            <span class="nav__item__icon">
+              <img src="https://psmedia.playstation.com/is/image/psmedia/meganav-icon-mobile-news-01-eu-15dec15?$Icon$"/>
+            </span>
+            News
+          </a>  
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__item__wrapper">
+            <span class="nav__item__icon">
+              <img src="https://psmedia.playstation.com/is/image/psmedia/meganav-icon-mobile-ps-store-01-eu-15dec15?$Icon$"/>
+            </span>
+            PS Store
+          </a>  
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__item__wrapper">
+            <span class="nav__item__icon">
+              <img src="https://psmedia.playstation.com/is/image/psmedia/meganav-icon-mobile-help-01-eu-15dec15?$Icon$"/>
+            </span>
+            Aide
+          </a>  
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__item__wrapper">
+            <span class="nav__item__icon">
+              <img src="https://www.playstation.com/fr-fr/1.22.03/etc/designs/pdc/clientlibs_base/images/main-header/primarynav_icon_account.png"/>
+            </span>
+            Connexion
+          </a>  
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__item__wrapper">
+            <span class="nav__item__icon">
+              <img src="https://psmedia.playstation.com/is/image/psmedia/meganav-icon-mobile-sitemap-01-eu-15dec15?$Icon$"/>
+            </span>
+            Plan du site
+          </a>  
+        </li>
+      </ul>
+    </nav>
+    
+  </div>
+

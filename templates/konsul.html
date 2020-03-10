@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/menu/menu.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer/footer.css' %}">
+    <link rel="stylesheet" href="{% static 'css/form/form.css' %}">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="{% static 'js/menu.js' %}"></script>
+    <title>elenafemme</title>
+</head>
+<body>
+    <div class="form">
+        {% include 'form/form.html' %}
+    </div> 
+            {% include 'header/header.html' %}
+        <main>
+            <h1>Hello</h1>
+        </main>
+
+        <footer>
+            <div class="f">
+                {% include 'footer/footer.html' %}
+            </div>
+        </footer>
+        <script type="text/javascript" src="{% static 'js/room.js' %}"></script>
+    </body>
+</html>

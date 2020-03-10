@@ -1,0 +1,21 @@
+main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20pt;
+    ul{
+        display: flex;
+        li{
+            margin: 0 2rem 2rem 0;
+            a{
+                text-decoration: none;
+            }
+            margin-top: 10px;
+            .kategoria{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                list-style-type: decimal;
+            }
+        }
+    }
+}

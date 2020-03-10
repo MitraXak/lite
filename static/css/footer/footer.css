@@ -1,0 +1,27 @@
+footer {
+  background: linear-gradient(105deg, #6e99e6, #093c94);
+  padding-top: 80px;
+  padding-bottom: 40px;
+  /*END FOOTER SOCIAL DESIGN*/ }
+  footer .f {
+    display: flex;
+    justify-content: center; }
+  @media only screen and (max-width: 768px) {
+    footer .single_footer {
+      margin-bottom: 30px; } }
+  footer .container {
+    /*END SOCIAL PROFILE CSS*/ }
+    footer .container .copyright {
+      margin-top: 70px;
+      padding-top: 40px;
+      color: #fff;
+      font-size: 15px;
+      border-top: 1px solid rgba(255, 255, 255, 0.4);
+      text-align: center; }
+    footer .container .copyright a {
+      color: #01c7e9;
+      transition: all 0.2s ease 0s; }
+    footer .container .copyright a:hover {
+      color: #ff3666; }
+
+/*# sourceMappingURL=footer.css.map */

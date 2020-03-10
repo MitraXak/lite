@@ -1,0 +1,28 @@
+footer{
+    background: linear-gradient(105deg,#6e99e6 ,#093c94);
+    padding-top: 80px;
+    padding-bottom: 40px;
+    .f{
+        display: flex;
+        justify-content: center;
+    }
+    /*END FOOTER SOCIAL DESIGN*/
+
+    @media only screen and (max-width:768px) { 
+    .single_footer{margin-bottom:30px;}
+    }
+    .container{
+        
+            /*END SOCIAL PROFILE CSS*/
+            .copyright {
+            margin-top: 70px;
+            padding-top: 40px;
+            color:#fff;
+            font-size: 15px;
+            border-top: 1px solid rgba(255,255,255,0.4);
+            text-align: center;
+            }
+            .copyright a{color:#01c7e9;transition: all 0.2s ease 0s;}
+            .copyright a:hover{color:#ff3666;}
+        }
+}

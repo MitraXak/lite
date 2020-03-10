@@ -1,0 +1,82 @@
+main {
+  display: flex;
+  justify-content: center; }
+  main .contente {
+    max-width: 1400px;
+    display: grid;
+    grid-template-areas: "efir efir heart heart about about" "efir efir heart heart about about" "meet meet couch couch about about" "meet meet couch couch about about" "men  men  men   men   about about" "speak speak speak otzv otzv otzv";
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr 2fr;
+    gap: 5px; }
+    @media (max-width: 620px) {
+      main .contente {
+        display: block; } }
+    main .contente .some {
+      position: relative;
+      background-image: linear-gradient(to right, #d7f0a2 15%, #d7f0a2 85%);
+      text-align: center; }
+      main .contente .some img {
+        width: 100%;
+        height: 100%; }
+      main .contente .some .blockText {
+        padding-top: 40%;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        color: white; }
+        main .contente .some .blockText .caption {
+          font-size: 12pt;
+          font-weight: 900; }
+    main .contente .efir, main .contente .heart {
+      width: 100%;
+      height: 100%;
+      opacity: 1; }
+    main .contente .couch, main .contente .meet {
+      width: 100%;
+      height: 100%; }
+    main .contente .efir {
+      grid-area: efir; }
+    main .contente .heart {
+      grid-area: heart; }
+    main .contente .about {
+      grid-area: about; }
+      main .contente .about .blockText {
+        padding-top: 0; }
+        main .contente .about .blockText img {
+          width: 50%;
+          height: 70%; }
+          @media only screen and (max-width: 800px) and (max-height: 1280px) {
+            main .contente .about .blockText img {
+              height: 50%; } }
+          @media only screen and (max-width: 1280px) and (max-height: 800px) {
+            main .contente .about .blockText img {
+              height: 40%; } }
+    main .contente .meet {
+      grid-area: meet; }
+    main .contente .couch {
+      grid-area: couch; }
+    main .contente .cursMen {
+      grid-area: men; }
+      @media only screen and (min-width: 360px) and (max-width: 768px) {
+        main .contente .cursMen {
+          margin: auto;
+          width: 100%;
+          height: 400px; } }
+      @media only screen and (min-width: 780px) {
+        main .contente .cursMen {
+          margin: auto;
+          width: 100%;
+          height: 500px; } }
+    main .contente .speak {
+      grid-area: speak;
+      grid-column: 1 / 5; }
+    main .contente .otzv {
+      grid-area: otzv;
+      grid-column: 5 / 7; }
+    @media (max-width: 620px) {
+      main .contente .some {
+        height: 400px; } }
+
+/*# sourceMappingURL=main.css.map */

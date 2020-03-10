@@ -1,0 +1,18 @@
+main {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20pt; }
+  main ul {
+    display: flex; }
+    main ul li {
+      margin: 0 2rem 2rem 0;
+      margin-top: 10px; }
+      main ul li a {
+        text-decoration: none; }
+      main ul li .kategoria {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        list-style-type: decimal; }
+
+/*# sourceMappingURL=kurs.css.map */
